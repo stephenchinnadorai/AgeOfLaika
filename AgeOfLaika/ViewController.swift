@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         // let conversionConstant = 7
         dogYearsConvertedLabel.hidden = false
         dogYearsConvertedLabel.text = "\(humanYearsTextField.text.toInt()! * 7)" + " in dog years"
+        humanYearsTextField.text = ""
     }
     
 
